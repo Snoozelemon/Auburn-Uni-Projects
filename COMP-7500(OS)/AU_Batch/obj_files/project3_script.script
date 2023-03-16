@@ -1,0 +1,193 @@
+Script started on 2023-03-16 15:50:37-04:00
+]777;notify;Command completed;exit]0;saiteja@localhost:~/comp7500/project3]7;file://localhost.localdomain/home/saiteja/comp7500/project3[saiteja@localhost project3]$ exit./aubatch gcc aubatch.c -o aubatch -g -pthread
+]777;notify;Command completed;gcc aubatch.c -o aubatch -g -pthread]0;saiteja@localhost:~/comp7500/project3]7;file://localhost.localdomain/home/saiteja/comp7500/project3[saiteja@localhost project3]$ gcc aubatch.c -o aubatch -g -pthread[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K./aubatch 
+********************************************************************************************
+			Welcome to AuBatch, created by Sai Teja. 
+					version 1.0.1
+*********************************************************************************************
+To know more about the tool, Type 'help' in the terminal.
+>The queue is empty, waiting for new jobs
+help
+
+run <job> <time> <pri>:submit a job named <job>,
+                       execution time is <time>,
+                       priority is <pri>.
+
+list:display the job status.
+
+To change the current scheduling policy, enter 
+<fcfs>: for FCFS
+<sjf>: for SJF &
+<priority>: for priority.
+
+test <benchmark> <policy> <num_of_jobs> <priority_levels> <min_CPU_time> <max_CPU_time>
+
+quit: exit from AUbatch
+>run job 3   4 fcfs      13 fcfs
+Job <job> was submitted.
+ Total job in the queue:1.
+Expected waiting time:0
+>run job 4 fcfs
+Job <job> was submitted.
+ Total job in the queue:2.
+Expected waiting time:13
+>run job 3 fcfs
+Job <job> was submitted.
+ Total job in the queue:3.
+Expected waiting time:17
+>list
+Total number of jobs in the waiting queue:2
+Scheduling Policy:fcfs
+Name	CPU_Time	Priority	Arrival_Time	Status
+job	4	         0		20:09:52	Running.....
+job	3	         0		20:09:52	
+>The queue is empty, waiting for new jobs
+run job 20 fcfs
+Job <job> was submitted.
+ Total job in the queue:1.
+Expected waiting time:0
+>run job 10 fcfs
+Job <job> was submitted.
+ Total job in the queue:2.
+Expected waiting time:20
+>run job 5 fcfs
+Job <job> was submitted.
+ Total job in the queue:3.
+Expected waiting time:30
+>list
+Total number of jobs in the waiting queue:3
+Scheduling Policy:fcfs
+Name	CPU_Time	Priority	Arrival_Time	Status
+job	20	         0		20:09:52	Running.....
+job	10	         0		20:09:52	
+job	5	         0		20:09:52	
+>The queue is empty, waiting for new jobs
+quit
+
+Shutting down the programm
+
+Total number of job finished:   6
+Average Turn around Time:       17.833
+Average CPU Time:               9.167
+Average waiting Time:           8.667
+Throughput:                     0.056
+
+]777;notify;Command completed;./aubatch ]0;saiteja@localhost:~/comp7500/project3]7;file://localhost.localdomain/home/saiteja/comp7500/project3[saiteja@localhost project3]$ ./aubatch 
+********************************************************************************************
+			Welcome to AuBatch, created by Sai Teja. 
+					version 1.0.1
+*********************************************************************************************
+To know more about the tool, Type 'help' in the terminal.
+>The queue is empty, waiting for new jobs
+run jb=  ob sjf     3   10 sjf
+Job <job> was submitted.
+ Total job in the queue:1.
+Expected waiting time:0
+>run job 4 sjf
+Job <job> was submitted.
+ Total job in the queue:2.
+Expected waiting time:10
+>list
+Total number of jobs in the waiting queue:2
+Scheduling Policy:fcfs
+Name	CPU_Time	Priority	Arrival_Time	Status
+job	10	         0		10:49:20	Running.....
+job	4	         0		10:49:20	
+>The queue is empty, waiting for new jobs
+run job 20 fcfs
+Job <job> was submitted.
+ Total job in the queue:1.
+Expected waiting time:0
+>sjf
+Switching to SJF Scheduling Policy
+>run job 5 sjf
+Job <job> was submitted.
+ Total job in the queue:2.
+Expected waiting time:20
+>list
+Total number of jobs in the waiting queue:2
+Scheduling Policy:sjf
+Name	CPU_Time	Priority	Arrival_Time	Status
+job	20	         0		10:49:20	Running.....
+job	5	         0		10:49:20	
+>The queue is empty, waiting for new jobs
+run job 10  20 priority
+Job <job> was submitted.
+ Total job in the queue:1.
+Expected waiting time:0
+>run job 10 priority
+Job <job> was submitted.
+ Total job in the queue:2.
+Expected waiting time:20
+>list
+Total number of jobs in the waiting queue:2
+Scheduling Policy:sjf
+Name	CPU_Time	Priority	Arrival_Time	Status
+job	20	         0		10:49:20	Running.....
+job	10	         0		10:49:20	
+>The queue is empty, waiting for new jobs
+tst   
+Total number of jobs in the waiting queue:0
+Scheduling Policy:sjf
+Job Queue is currently empty!
+>tst
+Unknown command! Type <help> to get more information
+>help
+
+run <job> <time> <pri>:submit a job named <job>,
+                       execution time is <time>,
+                       priority is <pri>.
+
+list:display the job status.
+
+To change the current scheduling policy, enter 
+<fcfs>: for FCFS
+<sjf>: for SJF &
+<priority>: for priority.
+
+test <benchmark> <policy> <num_of_jobs> <priority_levels> <min_CPU_time> <max_CPU_time>
+
+quit: exit from AUbatch
+>test job priot rity 5 5 1 10
+			Automated test module
+Test Information:
+
+The benchmark name:                         job
+Policy:                                     priority
+Number of job:                              5
+priority levels:                            5
+MIN_CPU time:                               1
+MAX_CPU time:                               10
+default arrive rate:                        1 No/sec
+
+list
+All 5 test jobs have been scheduled, Please wait. You can have a look at progress by typing 'list' command
+>Total number of jobs in the waiting queue:5
+Scheduling Policy:priority
+Name	CPU_Time	Priority	Arrival_Time	Status
+job	6	         0		10:49:20	Running.....
+job	1	         4		10:49:20	
+job	8	         1		10:49:20	
+job	5	         0		10:49:20	
+job	7	         0		10:49:20	
+>
+Total number of job finished:     5
+Average Turn around Time:           13.000 sec
+Average CPU Time:                   5.400 sec
+Average waiting Time:               7.600 sec
+Throughput:                         0.077 No/sec
+The queue is empty, waiting for new jobs
+quit
+
+Shutting down the programm
+
+Total number of job finished:   5
+Average Turn around Time:       13.000
+Average CPU Time:               5.400
+Average waiting Time:           7.600
+Throughput:                     0.077
+
+]777;notify;Command completed;./aubatch ]0;saiteja@localhost:~/comp7500/project3]7;file://localhost.localdomain/home/saiteja/comp7500/project3[saiteja@localhost project3]$ exit
+exit
+
+Script done on 2023-03-16 15:55:23-04:00
