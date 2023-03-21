@@ -14,4 +14,5 @@ The input for this tool requires an txt file which contains a couple of words in
 
 The output:
 
- ![github_wordcount](https://user-images.githubusercontent.com/95582826/226694395-a8f9b356-7064-4eda-b908-b64c60cbd8a3.png)
+ ![github_wordcount](https://user-images.githubusercontent.com/95582826/226696775-ffc7a221-5460-4211-b780-3240561ff175.png)
+
