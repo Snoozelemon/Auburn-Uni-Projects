@@ -16,3 +16,9 @@ And here is the project diagram.
 
 
 ![project 3](https://user-images.githubusercontent.com/95582826/225746865-4b079a67-b3f9-490c-b136-84fe21c016a2.png)
+
+Here an sample output from this project,
+
+![github_aubatch](https://user-images.githubusercontent.com/95582826/226696603-b66a9fde-b98f-403e-aaf5-49163b9e4985.png)
+
+
