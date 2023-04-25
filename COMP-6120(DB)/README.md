@@ -1,7 +1,7 @@
 #                                           Online Bookstore System
-##                                        Populating and Querying Databases with SQL
-Spring 2023
+##                                        Populating and Querying Databases with SQL Spring 2023
 
+My name is Sai Teja. I am a gradute student at Auburn University ![au](https://user-images.githubusercontent.com/95582826/234147813-3dc2d486-e207-4c21-99b5-6b656a885487.png)
 In this project, I've created a database for a hypothetical online bookstore system.
 The system maintains information about books, subjects, supplier, and shippers. The
 bookstore acquires the desired books from suppliers (e.g. Amazon.com), and ships the
