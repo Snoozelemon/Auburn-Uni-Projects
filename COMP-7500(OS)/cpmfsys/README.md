@@ -13,8 +13,8 @@ Here is a Design Implementation of this project:
 <br></br>
 Input to the terminal:
 <i>
-  > make <br></br>
-  > ./cpmRun
+  > $make
+  > $./cpmRun
 </i>
 
 <br></br>
