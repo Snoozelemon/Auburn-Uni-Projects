@@ -7,7 +7,7 @@ file systems is still included in Linux to this day).
 Here is a Design Implementation of this project:
 <br></br>
 
-![design_proj4](https://user-images.githubusercontent.com/95582826/234142612-24bb858e-ef8e-4944-9773-9f5b96be9b53.png)
+![design_proj4](https://user-images.githubusercontent.com/95582826/234142612-24bb858e-ef8e-4944-9773-9f5b96be9b53.png =250x250)
 
 
 <br></br>
