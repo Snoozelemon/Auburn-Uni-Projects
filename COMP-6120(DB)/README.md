@@ -14,7 +14,7 @@ employees.
 3. Write correct SQL statements for the queries given.
 
   <br></br>
-![point]([image link](https://icons8.com/icon/qavUFheymbdd/point))<a href="http://webhome.auburn.edu/~szc0239/">Click here</a> to view my project.
+![]((https://icons8.com/icon/qavUFheymbdd/point)<a href="http://webhome.auburn.edu/~szc0239/">Click here</a> to view my project.
  <br></br>
 Shoutout to:
 > Icons used in this project from:      https://icons8.com/
