@@ -15,7 +15,7 @@ employees.
 
   <br></br>
 
-<a href="http://webhome.auburn.edu/~szc0239/">Click here</a> to view my project.
+👉<a href="http://webhome.auburn.edu/~szc0239/">Click here</a> to view my project.
  <br></br>
 Shoutout to:
 > Icons used in this project from:      https://icons8.com/
