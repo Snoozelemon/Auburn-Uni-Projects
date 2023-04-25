@@ -13,7 +13,7 @@ Here is a Design Implementation of this project:
 <br></br>
 Input to the terminal:
 <i>
-  > make
+  > make <br></br>
   > ./cpmRun
 </i>
 
