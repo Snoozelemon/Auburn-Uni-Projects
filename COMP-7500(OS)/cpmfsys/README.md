@@ -7,14 +7,18 @@ file systems is still included in Linux to this day).
 Here is a Design Implementation of this project:
 <br></br>
 
-![sstf (3)](https://user-images.githubusercontent.com/95582826/234141164-8a366136-a1ab-42c8-bf1b-6d079a3817df.png)
+![design_proj4](https://user-images.githubusercontent.com/95582826/234142612-24bb858e-ef8e-4944-9773-9f5b96be9b53.png)
+
 
 <br></br>
 Input to the terminal:
-<i>> make
-> ./cpmRun</i>
+<i>
+  > make
+  > ./cpmRun
+</i>
 
 <br></br>
 
 Output:
+
 ![output](https://user-images.githubusercontent.com/95582826/234142125-52db8a3b-b352-4e0b-b66d-ad763b3a5f43.png)
