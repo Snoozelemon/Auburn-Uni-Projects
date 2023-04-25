@@ -14,7 +14,7 @@ employees.
 3. Write correct SQL statements for the queries given.
 
   <br></br>
-![icons8-point-24](https://user-images.githubusercontent.com/95582826/234149346-2380080f-9285-46fa-a46b-31c2c719b201.png)
+
 <a href="http://webhome.auburn.edu/~szc0239/">Click here</a> to view my project.
  <br></br>
 Shoutout to:
