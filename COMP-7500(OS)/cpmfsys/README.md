@@ -12,9 +12,9 @@ Here is a Design Implementation of this project:
 
 <br></br>
 Input to the terminal:
-  > $make
+  > make
   > 
-  > $./cpmRun
+  > ./cpmRun
 
 <br></br>
 
