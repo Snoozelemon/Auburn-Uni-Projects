@@ -1,5 +1,5 @@
 #                                           Online Bookstore System
-<Heading2>                                         Populating and Querying Databases with SQL
+##                                        Populating and Querying Databases with SQL
 Spring 2023
 
 In this project, I've created a database for a hypothetical online bookstore system.
