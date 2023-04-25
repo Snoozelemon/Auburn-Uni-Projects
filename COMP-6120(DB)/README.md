@@ -1,4 +1,4 @@
-#                                           Online Bookstore System
+#                                         ![au](https://user-images.githubusercontent.com/95582826/234148493-fff71d9f-3ccd-45fd-b0d6-df28f7ca0fa8.png)  Online Bookstore System
 ##                                        Populating and Querying Databases with SQL Spring 2023
 
 My name is Sai Teja. I am a gradute student at Auburn University ![au (2)](https://user-images.githubusercontent.com/95582826/234148441-84e5586c-3773-4c86-ad77-10f691f02cd0.png)
