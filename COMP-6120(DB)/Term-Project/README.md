@@ -11,8 +11,7 @@ employees.
 1. Create and populate the bookstore database with MySQL.
 2. Create a user interface using PHP and HTML to query and modify the data.
 3. Write correct SQL statements for the queries given.
-
-  <br></br>
+<br></br>
 
 👉<a href="http://webhome.auburn.edu/~szc0239/">Click here</a> to view my project.
  <br></br>
