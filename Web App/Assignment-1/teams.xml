@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<teams>
+	<team tid="T101" cars="C101">
+		<team_title>Team_Engineers </team_title>
+		<description>Developers </description>
+		<series>ED0030s </series>
+	</team>
+	
+	<team tid="T102" cars="C102">
+		<team_title>Team_Doctors </team_title>
+		<description>Health </description>
+		<series>HD0020 </series>
+	</team>
+	
+	<team tid="T103" cars="C103">
+		<team_title>Team_Police </team_title>
+		<description>Security </description>
+		<series>SC0001 </series>
+	</team>
+	<team tid="T104" cars="C103">
+		<team_title>Team_Firefighters</team_title>
+		<description>Emergency Response</description>
+		<series>FR0010</series>
+	</team>
+</teams>
+

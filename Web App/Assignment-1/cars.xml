@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cars>
+	<car cid="C101" team="T101">
+		<car_title>Ferrari</car_title>
+		<model>F1-75</model>
+		<driver>Charles Leclerc </driver>
+	</car>
+	
+	<car cid="C102" team="T102">
+		<car_title>Mercedes</car_title>
+		<model>2022 AMG</model>
+		<driver>Lewis Hamilton </driver>
+	</car>
+	
+	<car cid="C103" team="T103">
+		<car_title>BMW</car_title>
+		<model>Sauber</model>
+		<driver>Jean Alesi </driver>
+	</car>
+	
+	<car cid="C104" team="T104">
+		<car_title>McLaren</car_title>
+        <model>MCL36</model>
+        <driver>Daniel Ricciardo </driver>
+    </car>
+
+</cars>
